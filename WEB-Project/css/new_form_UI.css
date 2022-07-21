@@ -1,0 +1,184 @@
+main {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.page {
+    background: rgb(0, 153, 255);
+    background: linear-gradient(45deg, rgba(0, 153, 255, 1) 0%, rgba(0, 226, 255, 1) 44%, rgba(239, 255, 0, 1) 100%);
+
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    display: block;
+    position: relative;
+    border: none;
+    border-radius: 0.25rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 1%;
+}
+
+.quest {
+    border: none;
+    background: white;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding: 2rem 2rem 2rem 3rem;
+}
+
+.title {
+    position: relative;
+    display: block;
+    transition: 0.2s;
+    font-size: 16px;
+    color: #7e7d7d;
+    font-family: courier;
+}
+
+.description {
+    position: relative;
+    display: block;
+    transition: 0.2s;
+    font-size: 16px;
+    color: #7e7d7d;
+    font-family: courier;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    align-self: center;
+    margin: 16px auto;
+    padding: 0;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 650;
+
+    overflow: hidden;
+    cursor: pointer;
+
+    border-width: 0;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: none;
+
+    background-color: #286e77;
+    color: #ffffff;
+
+    transition: background-color 0.3s;
+}
+
+.input {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #d2d2d2;
+    outline: 0;
+    font-size: 16px;
+    color: #212121;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    margin-bottom: 16px;
+}
+
+.title {
+    display: inline-block;
+    align-self: center;
+    margin-top: 0;
+}
+
+#title {
+    text-decoration: none;
+    margin-top: 0;
+    font-size: 500%;
+    font-family: monospace;
+    color: white;
+    text-transform: uppercase;
+}
+
+.logout-container {
+    text-align: right;
+    margin: 1rem 1rem 0 0;
+}
+
+.logout-btn {
+    background-color: #3e720a;
+    margin: 16px auto;
+    padding: 0;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 650;
+    border-width: 0;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: none;
+    color: #ffffff;
+
+    transition: background-color 0.3s;
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: inline-block;
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}

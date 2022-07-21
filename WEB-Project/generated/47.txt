@@ -1,0 +1,1 @@
+stem=Did you receive this form?,type=radio,number_of_options=2,name=radio,label=YES,value=YES,label=NO,value=NO;

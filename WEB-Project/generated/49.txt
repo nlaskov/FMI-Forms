@@ -1,0 +1,3 @@
+stem=Where are you from?,type=text,name=city,label=city;
+stem=How old are you?,type=radio,number_of_options=6,name=age,label=0-21,value=0-21,label=21-31,value=21-31,label=31-51,value=31-51,label=51-61,value=51-61,label=61-71,value=61-71,label=This old?,value=This old?;
+stem=Profile picture. ,type=file,name=picture,label=picture;
